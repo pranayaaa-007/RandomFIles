@@ -6,7 +6,7 @@ def main():
 
 def get_initials(full_name):
     first_name, middle_name, last_name = full_name.split(" ")
-    return f"{first_name[0]}.{middle_name[0]}.{last_name[0]}."
+    return f"{first_name[0]}. {middle_name[0]}. {last_name[0]}."
 
 
 if __name__ == "__main__":
